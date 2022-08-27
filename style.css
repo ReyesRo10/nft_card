@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192c;
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main_container {
+  max-width: 327px;
+  height: 543px;
+  background-color: #15263f;
+  border-radius: 15px;
+  margin-bottom: 32px;
+}
+
+.image {
+  background-image: url(images/image-equilibrium.jpg);
+  background-size: cover;
+  display: block;
+  width: 280px;
+  height: 280px;
+  border-radius: 8px;
+  margin: 26px auto;
+  overflow: hidden;
+}
+
+.eye_image {
+  opacity: 0;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  background-image: url(images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.eye_image:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin: auto 25px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  color: #8bacd9;
+  margin: auto 25px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.price_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 25px;
+  margin-bottom: 16px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+}
+.eth_icon {
+  width: 11px;
+  height: 18px;
+}
+.eth_text {
+  font-size: 15px;
+  font-weight: 600px;
+  color: #00fff8;
+  margin-left: 6.5px;
+  line-height: 19px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.clock_icon {
+  width: 16px;
+  height: 16px;
+}
+.days_text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #8bacd9;
+  margin-left: 7.5px;
+  line-height: 19px;
+}
+
+.divider {
+  width: 278px;
+  height: 1px;
+  background-color: #2e405a;
+  margin: auto 25px;
+  margin-bottom: 16px;
+}
+
+.autor_container {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 84px;
+}
+.autor_picture {
+  width: 33px;
+  height: 33px;
+}
+
+.autor_text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 19px;
+  margin-left: 16px;
+}
+
+span {
+  color: #8bacd9;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.autor_container p:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
