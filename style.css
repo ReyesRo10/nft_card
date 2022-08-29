@@ -16,21 +16,21 @@ body {
   justify-content: center;
 }
 .main_container {
-  max-width: 327px;
-  height: 543px;
+  max-width: 20.5rem;
+  height: 34rem;
   background-color: #15263f;
-  border-radius: 15px;
-  margin-bottom: 32px;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
 }
 
 .image {
   background-image: url(images/image-equilibrium.jpg);
   background-size: cover;
   display: block;
-  width: 280px;
-  height: 280px;
-  border-radius: 8px;
-  margin: 26px auto;
+  width: 17.5rem;
+  height: 17.5rem;
+  border-radius: 0.5rem;
+  margin: 1.625rem auto;
   overflow: hidden;
 }
 
@@ -50,27 +50,27 @@ body {
 }
 
 .title {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
   color: #fff;
-  margin: auto 25px;
-  margin-bottom: 12px;
+  margin: auto 1.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .subtitle {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 300;
   color: #8bacd9;
-  margin: auto 25px;
+  margin: auto 1.5rem;
   line-height: 26px;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .price_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: auto 25px;
-  margin-bottom: 16px;
+  margin: auto 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .left {
@@ -78,14 +78,14 @@ body {
   justify-content: center;
 }
 .eth_icon {
-  width: 11px;
+  width: 0.7rem;
   height: 18px;
 }
 .eth_text {
-  font-size: 15px;
-  font-weight: 600px;
+  font-size: 1rem;
+  font-weight: 600;
   color: #00fff8;
-  margin-left: 6.5px;
+  margin-left: 0.4rem;
   line-height: 19px;
 }
 
@@ -95,14 +95,14 @@ body {
 }
 
 .clock_icon {
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
 }
 .days_text {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   color: #8bacd9;
-  margin-left: 7.5px;
+  margin-left: 0.47rem;
   line-height: 19px;
 }
 
@@ -117,20 +117,20 @@ body {
 .autor_container {
   display: flex;
   align-items: center;
-  margin-left: 25px;
-  margin-right: 84px;
+  margin-left: 1.5rem;
+  margin-right: 5.25rem;
 }
 .autor_picture {
-  width: 33px;
-  height: 33px;
+  width: 2rem;
+  height: 2rem;
 }
 
 .autor_text {
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 400;
   color: #fff;
   line-height: 19px;
-  margin-left: 16px;
+  margin-left: 1rem;
 }
 
 span {
@@ -138,7 +138,7 @@ span {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.7rem;
   text-align: center;
   color: #fff;
 }
